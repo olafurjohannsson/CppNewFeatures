@@ -13,3 +13,42 @@ ch6. Control flow
 ch7. For loops
 ch8. Output
 ch9. Ping Pong Game
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes:
+Use SDL or just write on console screen
+ Learn C++ by making basic games
+  - Pong
+  - Tetris
+  - Guess game
+  - Hangman
+
+
+
+ I/O via cin/cout/getline
+
+* IO
+* Variables
+* Types 
+* Functions
+* 
+
+
+
+

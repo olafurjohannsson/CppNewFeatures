@@ -12,3 +12,11 @@ Performance critical application (telephone switches, space probes)
 C++ is a compiled language.
 
 
+
+Learning C++ can be a daunting task, but in my opinion, becoming a proficient software developer should include learning a language that can go deep into the machine, such as C and C++.
+
+This book is intented for an audience taking their first steps in programming, or first steps in C++ programming.
+
+We will first setup our environment and install C++ and the compiler, and start creating stuff.
+
+
