@@ -3,16 +3,20 @@ Beginning C++ for Humans
  - Start creating programs with C++17
  - Includes a small Ping Pong game with graphics at the the end
 
-ch0. Intro and why
-ch1. Getting started and installation
+ch0. Introduction
+ch1. Getting started
 ch2. Hello world
-ch3. Variables and operators
-ch4. Types
-ch5. Input
-ch6. Control flow
-ch7. For loops
-ch8. Output
+ch3. Variables, types and operators
+ch4. I/O
+ch5. Control flow
+ch6. For loops
+ch7. Functions
+ch8. SDL library
 ch9. Ping Pong Game
+
+10 chapters
+Build up a sequence until we create a ping pong game in ch. 7
+Introduce SDL in ch.8 and refactor to use it in ch. 9.
 
 
 

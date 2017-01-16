@@ -21,7 +21,11 @@ We can imagine a simple calculator, it can add, subtract, multiply and divide - 
 
 We can use the abstractions provided by the programming language, such as variables and types, instead of cryptic binary notation.
 
+Like the simple calculator we mentioned, when calculating values such as 2 + 2, we need somewhere to store the value in memory, we do this by the provided variable abstraction, in this case a whole number, or an integer.
 
+<type> <name> = <value>
+int name = 2 + 2;
+Output is 4, kept somewhere in memory
 
 
 
