@@ -1,0 +1,51 @@
+
+variable 
+ - an element that is liable to vary or change
+
+Variables in C++ are a feature that give us named storage that our programs can manipulate. Each variable has a specific type, which determines it's size in bytes and it's layout in memory, the range of values that can be stored in that memory, and the set of operations that can be applied to the variable.
+
+bool
+char
+int
+float
+double
+void
+wchar_t
+
+You define a variable using the "type name" notation
+int my_int;
+
+The usefulness of this is rather questionable. However, programming is not limited only to printing simple characeters on the screen. But rather to do useful tasks that can save us work, or make us money.
+
+We can imagine a simple calculator, it can add, subtract, multiply and divide - but how would we conceptualize this model into something that the computer can understand and interprit.
+
+We can use the abstractions provided by the programming language, such as variables and types, instead of cryptic binary notation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

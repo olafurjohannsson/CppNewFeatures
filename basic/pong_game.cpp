@@ -1,29 +1,57 @@
+
+
+#include <cstring>
 #include <iostream>
+#include <vector>
+#include <string>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sstream>
 
-int width = 40;
-int height = 20;
+const int WIDTH = 40;
+const int HEIGHT = 20;
 
-void Draw()
-{
-    std::system("clear");
-    for (int i=0; i < width + 2; i++)
-        std::cout << "\xB2";
-    std::cout << std::endl;
+char SCREEN[WIDTH][HEIGHT];
+
+void reset() {
+    std::memset((char*)SCREEN, 0x00, 40 * 20);
 }
 
-void Input()
+enum Color
 {
+    NONE = 0,
+    BLACK, RED, GREEN,
+    YELLOW, BLUE, MAGENTA,
+    CYAN, WHITE
+};
 
+static std::string set_color(Color foreground = NONE, Color background = NONE)
+{
+    std::stringstream s;
+    s << "\033[";
+    if (!foreground && ! background){
+        s << "0"; // reset colors if no params
+    }
+    if (foreground) {
+        s << 29 + foreground;
+        if (background) s << ";";
+    }
+    if (background) {
+        s << 39 + background;
+    }
+    s << "m";
+    return s.str();
 }
 
-void Logic()
-{
-
-}
 
 
 int main() {
-    Draw();
-    Input();
-    Logic();
+
+    
+    std::cout << "test" << set_color(GREEN) << set_color() << std::endl;
+    //set_color();
+    std::cout << "test" << std::endl;
+
+
 }
