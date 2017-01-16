@@ -3,6 +3,10 @@ C++ for Humans
  Start making games with C++17 and SDL
  - Includes a small Ping Pong game with graphics at the the end
 
+
+Composite data types (vector, arrays)
+
+
 ch0. Introduction
   Who i am
   Why i do

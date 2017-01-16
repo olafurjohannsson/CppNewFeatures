@@ -13,6 +13,7 @@ const int WIDTH = 40;
 const int HEIGHT = 20;
 
 char SCREEN[WIDTH][HEIGHT];
+char OLD_SCREEN[WIDTH][HEIGHT];
 
 void reset() {
     std::memset((char*)SCREEN, 0x00, 40 * 20);
@@ -44,14 +45,29 @@ static std::string set_color(Color foreground = NONE, Color background = NONE)
     return s.str();
 }
 
-
-
+bool game_running = true;
 int main() {
-
     
-    std::cout << "test" << set_color(GREEN) << set_color() << std::endl;
-    //set_color();
-    std::cout << "test" << std::endl;
+    while (game_running) 
+    {
+        system("clear");
+        for (int i = 0; i < WIDTH + 2; i++)
+        {
+            if (i == 0 || i == WIDTH)
+                std::cout << "*";
+            else
+                std::cout << " ";
+
+            for (int j = 0; j < HEIGHT + 2; j++)
+            {
+                if (j == 0 || j == HEIGHT)
+                    std::cout << "*";
+            }
+            std::cout << std::endl;
+        }
+        usleep(2000);
+    }
+    
 
 
 }
