@@ -1,0 +1,15 @@
+
+Beginning C++ for Humans
+ - Start creating programs with C++17
+ - Includes a small Ping Pong game with graphics at the the end
+
+ch0. Intro and why
+ch1. Getting started and installation
+ch2. Hello world
+ch3. Variables and operators
+ch4. Types
+ch5. Input
+ch6. Control flow
+ch7. For loops
+ch8. Output
+ch9. Ping Pong Game
