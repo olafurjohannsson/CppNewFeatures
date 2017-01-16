@@ -1,0 +1,14 @@
+
+
+# Basic C++ For Humans
+
+
+C++ is a general purpose programming language, with a bias towards system programming and embedded, resource-constrained and large systems - with performance, efficiency and flexibility of use as it's design highlights.
+
+Desktop applications
+Web Search
+SQL Server
+Performance critical application (telephone switches, space probes)
+C++ is a compiled language.
+
+
