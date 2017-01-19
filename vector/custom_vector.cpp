@@ -60,6 +60,8 @@ private:
 };
 
 int main() {
+    std::cout << sizeof(int) << '\n';
+    std::cout << sizeof(uint32_t) << '\n';
     vectr<int> v;
     v.push_back(2);
     int i = 3;
