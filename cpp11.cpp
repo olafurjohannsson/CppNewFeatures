@@ -18,9 +18,10 @@ void lambda()
 {
     auto cntr = [] (std::string c) -> uint32_t {
         uint32_t cntr = 0;
-        for (; cntr < c.size(); cntr )
+        uint32_t total_upper = 0;
+        for (; cntr < c.size(); cntr = std::isupper(c[cntr++]))
             ;
-        return cntr;
+        return total_upper ;
     };
 
     std::cout << "cntr: " << cntr("test") << '\n';
